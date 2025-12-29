@@ -4,6 +4,11 @@
 
 # AES-GCM-256 Encryption/Decryption with QR Code Generator Web App
 
+This script runs entirely on the client side, and no data is transmitted or stored on the server. For security, avoid using sensitive information as keys.
+
+specials thanks to Kassem Bagher for his [AES-GCM-256 Javascript implementation](https://github.com/kbagher/aes-gcm) 
+and David Shim for his [QR CODE generator](https://davidshimjs.github.io/qrcodejs/).
+
 This repository contains a simple web app that demonstrates the use of AES-GCM-256 encryption and decryption. The app is built using HTML, CSS (Bootstrap), and JavaScript. The cryptographic operations are performed using the Web Cryptography API available in modern web browsers. The app supports both hex and base64 formats for encrypted data.
 
 ## Overview
@@ -154,7 +159,5 @@ Please note that changing the encryption algorithm or key size may affect the se
 -   [Stanford JavaScript Crypto Library (SJCL)](https://github.com/bitwiseshiftleft/sjcl): A JavaScript cryptography library developed by Stanford University
 
 These resources can help you learn more about cryptography, AES-GCM, PBKDF2, and the Web Cryptography API, or find similar projects and tutorials.
-
-special thanks to Kassem Bagher for his [AES-GCM-256 Javascript implementation](https://github.com/kbagher/aes-gcm) and David Shim for his [QR CODE generator]https://davidshimjs.github.io/qrcodejs/ .
 
 © 2025 Pascal LEGAL.
