@@ -14,7 +14,7 @@ The app allows users to encrypt and decrypt text using a user-provided key. The 
 
 To use the app, enter a key with any length, a salt of exactly 12 characters, and the input text that you want to encrypt or decrypt. You can choose to output the encrypted or decrypted text in either hexadecimal or base64 format. The app runs entirely on the client side, and no data is stored on the server.
 
-## Live Demo (Hosted on Github Pages)
+## Live Demo
 
 You can use the web app without cloning the repository or downloading the source code on the following link:
 
@@ -154,3 +154,7 @@ Please note that changing the encryption algorithm or key size may affect the se
 -   [Stanford JavaScript Crypto Library (SJCL)](https://github.com/bitwiseshiftleft/sjcl): A JavaScript cryptography library developed by Stanford University
 
 These resources can help you learn more about cryptography, AES-GCM, PBKDF2, and the Web Cryptography API, or find similar projects and tutorials.
+
+special thanks to Kassem Bagher for his [AES-GCM-256 Javascript implementation](https://github.com/kbagher/aes-gcm) and David Shim for his [QR CODE generator]https://davidshimjs.github.io/qrcodejs/ .
+
+© 2025 Pascal LEGAL.
